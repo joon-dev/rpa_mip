@@ -32,7 +32,7 @@ function App() {
             ) : (
               <button
                 onClick={addBook}
-                className='mr-2 w-64 rounded-sm bg-cyan-400 px-5 py-1 font-medium text-white hover:bg-cyan-500'
+                className='mr-2 w-64 rounded-md bg-cyan-400 px-5 py-1 text-xl font-bold text-white hover:bg-cyan-500'
               >
                 + Add Book
               </button>
